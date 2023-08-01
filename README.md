@@ -1,6 +1,6 @@
 # LinkedIn ICP Canister
 
-![LinkedIn ICP Canister](https://media.licdn.com/dms/image/C5612AQFyojz6Ge5bAg/article-cover_image-shrink_720_1280/0/1647427188118?e=2147483647&v=beta&t=V7Ie14kcpz0MQ2tAxOGwDN1AlLMKSCfQ4boK8SPfOi8) *(Optional: Add a logo or image to represent your project)*
+![LinkedIn ICP Canister](https://media.licdn.com/dms/image/C5612AQFyojz6Ge5bAg/article-cover_image-shrink_720_1280/0/1647427188118?e=2147483647&v=beta&t=V7Ie14kcpz0MQ2tAxOGwDN1AlLMKSCfQ4boK8SPfOi8)
 
 ## Overview
 
