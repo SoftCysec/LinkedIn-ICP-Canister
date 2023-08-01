@@ -1,0 +1,13 @@
+{
+  "canisters": {
+    "linkedIn": {
+      "main": "src/index.ts",
+      "type": "custom",
+      "build": "npx azle linkedIn",
+      "root": "src",
+      "ts": "src/index.ts",
+      "candid": "src/index.did",
+      "wasm": ".azle/linkedIn/linkedIn.wasm.gz"
+    }
+  }
+}
