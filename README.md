@@ -63,7 +63,7 @@ dfx canister call linkedIn createPost '{
 ```
 ### Example: Get all posts
 ```
-dfx canister call linkedIn getPosts
+dfx canister call linkedIn getAllPosts
 ```
 
 ## Contributions
