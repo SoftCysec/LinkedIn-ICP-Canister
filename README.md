@@ -45,6 +45,12 @@ npm install
 npx azle linkedIn
 ```
 
+- Start the Canister:
+```
+
+dfx start --background
+```
+
 - Deploy the canister:
 ```
 dfx deploy
