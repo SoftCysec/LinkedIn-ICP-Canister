@@ -16,8 +16,15 @@ type Post = record {
   comments : vec Comment;
 };
 type PostPayload = record { content : text };
+type User = record {
+  id : text;
+  owner : principal;
+  posts : vec text;
+  followers : vec principal;
+  following : vec principal;
+};
 type _AzleResult = variant { Ok : Post; Err : text };
-type _AzleResult_1 = variant { Ok; Err : text };
+type _AzleResult_1 = variant { Ok : User; Err : text };
 type _AzleResult_2 = variant { Ok : vec Post; Err : text };
 type _AzleResult_3 = variant { Ok : vec principal; Err : text };
 service : () -> {
@@ -25,11 +32,12 @@ service : () -> {
   addLike : (text) -> (_AzleResult);
   createPost : (PostPayload) -> (_AzleResult);
   deletePost : (text) -> (_AzleResult);
-  followUser : (principal) -> (_AzleResult_1);
+  followUser : (text) -> (_AzleResult_1);
   getAllPosts : () -> (_AzleResult_2) query;
-  getFollowers : (principal) -> (_AzleResult_3) query;
-  getFollowing : () -> (_AzleResult_3) query;
+  getFollowers : (text) -> (_AzleResult_3) query;
+  getFollowing : (text) -> (_AzleResult_3) query;
   getPost : (text) -> (_AzleResult) query;
+  register : () -> (User);
   removeLike : (text) -> (_AzleResult);
-  unfollowUser : (principal) -> (_AzleResult_1);
+  unfollowUser : (text) -> (_AzleResult_1);
 }
