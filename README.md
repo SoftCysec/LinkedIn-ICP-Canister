@@ -4,7 +4,7 @@
 
 ## Overview
 
-LinkedIn ICP Canister is a decentralized Internet Computer (ICP) canister that implements basic LinkedIn-like functionalities, including posting, liking, commenting, and following users. This project demonstrates how to build and deploy a custom canister on the Internet Computer network using Motoko and the `azle` tool.
+LinkedIn ICP Canister is a decentralized Internet Computer (ICP) canister that implements basic LinkedIn-like functionalities, including posting, liking, commenting, and following users. This project demonstrates how to build and deploy a custom canister on the Internet Computer network using the `azle`.
 
 ## Features
 
